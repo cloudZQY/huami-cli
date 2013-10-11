@@ -41,4 +41,4 @@ if __name__ == "__main__":
         sys.exit(1)
     import getpass
     password = getpass.getpass("Password:")
-    print huami(password, sys.argv[1])
+    sys.stdout.write(huami(password, sys.argv[1]))
